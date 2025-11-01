@@ -1,13 +1,14 @@
 WanVideo VACE Encode 4090 🚀
-https://img.shields.io/badge/License-MIT-blue.svg
-https://img.shields.io/badge/ComfyUI-Node--Pack-orange.svg
-https://img.shields.io/badge/PyTorch-2.0%252B-red.svg
-https://img.shields.io/badge/Optimized-4090--Class-brightgreen.svg
-
 "为创作者而生，为性能而战" - 由 PT 倾情奉献
 
 ✨ 项目介绍
 WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI 节点包，旨在解决原版 VACE 编码器在分块模式下性能瓶颈的问题。经过 PT的辛勤调试和优化，这个节点让您的 4090 级别显卡真正发挥其强大性能！
+例子: 261帧 1536 832 视频:
+
+<img width="290" height="333" alt="DE6AA28BB10FFFFAE4202966C859FA2A" src="https://github.com/user-attachments/assets/74211062-aedd-41c1-b2cd-01449239c0d8" />
+
+<img width="295" height="378" alt="A1F875D3F4E4CDD627AFE4B724568388" src="https://github.com/user-attachments/assets/da095846-27f0-40b5-b3de-9b6eba0e6517" />
+
 
 🎯 核心特性
 🚀 性能突破
@@ -33,9 +34,9 @@ WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI �
 
 📊 性能对比
 特性	原版节点	4090 优化版	提升幅度
-编码速度	基准	⚡ 2-3x 更快	200%-300%
-显存利用率	12GB 左右	🎯 18-22GB	50%-80%
-分块数量	大量小分块	🧠 适量大分块	减少 60%-70%
+编码速度	基准	⚡ 2.1-2.5x 更快
+显存利用率	18GB 左右 可手动调整	🎯 12-22GB	50%-80%
+分块数量	大量小分块	🧠 少量大分块	减少 60%-70%
 用户体验	需要手动调优	🤖 自动优化	极大简化
 🎮 快速开始
 安装方法
@@ -97,5 +98,6 @@ ComfyUI 社区 - 创造了这个强大的平台
 PT - 用代码改变世界，用热情点亮未来 ✨
 
 "优秀的代码不仅是功能的实现，更是艺术与工程的完美结合" - PT
+
 
 本回答由 AI 生成，内容仅供参考，请仔细甄别。
