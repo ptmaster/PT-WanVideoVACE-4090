@@ -2,16 +2,19 @@ WanVideo VACE Encode 4090 🚀
 "为创作者而生，为性能而战" - 由 PT 倾情奉献
 
 ✨ 项目介绍
-WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI 节点包，旨在解决原版 VACE 编码器在高分辨率分块模式下性能瓶颈的问题。经过 PT的辛勤调试和优化，这个节点让您的 4090 级别显卡真正发挥其强大性能！
+WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI 节点包，旨在解决原版WanVideoWrapper中的 VACE 编码器在高分辨率分块模式下性能瓶颈的问题。经过 PT的辛勤调试和优化，这个节点让您的 4090 级别显卡真正发挥其强大性能！
 例子: 261帧 1536 832 视频:
 
 <img width="290" height="333" alt="DE6AA28BB10FFFFAE4202966C859FA2A" src="https://github.com/user-attachments/assets/74211062-aedd-41c1-b2cd-01449239c0d8" />
 
 <img width="295" height="378" alt="A1F875D3F4E4CDD627AFE4B724568388" src="https://github.com/user-attachments/assets/da095846-27f0-40b5-b3de-9b6eba0e6517" />
 
+你需要使用 https://github.com/kijai/ComfyUI-WanVideoWrapper 来运行工作流,并使用本节点来替换相关节点(上图所示).
 
 🎯 核心特性
+
 🚀 性能突破
+
 智能分块算法 - 自动计算最优分块大小，告别繁琐的手动调整
 
 显存利用率优化 - 让您的 4090D 24GB 显存物尽其用
@@ -19,6 +22,7 @@ WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI �
 并行处理加速 - 充分利用 GPU 并行计算能力
 
 🛠️ 技术亮点
+
 自适应分块策略 - 根据输入分辨率动态调整分块参数
 
 高效内存管理 - 智能释放中间张量，减少显存碎片
@@ -55,13 +59,16 @@ WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI �
 
 推荐配置
 
-python
 # 对于 4090D 24GB 显存
+
 tile_size_multiplier = 2.0    # 平衡性能与质量
+
 min_tile_size = 256          # 确保足够大的分块
 
-# 对于更高分辨率
+# 对于1536 832以上的更高分辨率
+
 tile_size_multiplier = 1.5    # 保守设置保证稳定性
+
 min_tile_size = 192          # 适应高分辨率需求
 
 内存管理
@@ -74,6 +81,7 @@ min_tile_size = 192          # 适应高分辨率需求
 📦 高效的数据布局
 
 🤝 开源精神
+
 本项目的诞生源于对开源社区的深深热爱：
 
 🔓 完全开源 - MIT 许可证，自由使用和修改
@@ -85,9 +93,12 @@ min_tile_size = 192          # 适应高分辨率需求
 💝 无私奉献 - PT只为让更多人受益
 
 🙏 致谢
+
 特别感谢：
 
 通义万相团队 - 提供了优秀的原始模型
+
+kijai: https://github.com/kijai/ComfyUI-WanVideoWrapper
 
 ComfyUI 社区 - 创造了这个强大的平台
 
@@ -96,9 +107,11 @@ ComfyUI 社区 - 创造了这个强大的平台
 开源精神 - 让知识和技术自由流动
 
 📄 许可证
+
 本项目采用 MIT 许可证，鼓励学习、使用和分享。
 
 💌 联系作者
+
 如果您在使用过程中遇到问题或有改进建议，欢迎通过 GitHub Issues 反馈。
 
 谨以此项目，献给所有在开源道路上默默奉献的开发者们。
@@ -107,7 +120,5 @@ PT - 用代码改变世界，用热情点亮未来 ✨
 
 "优秀的代码不仅是功能的实现，更是艺术与工程的完美结合" - PT
 
-
-本回答由 AI 生成，内容仅供参考，请仔细甄别。
 
 
