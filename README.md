@@ -34,12 +34,19 @@ WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI �
 
 📊 性能对比
 特性	原版节点	4090 优化版	提升幅度
+
 编码速度	基准	⚡ 2.1-2.5x 更快
+
 显存利用率	18GB 左右 可手动调整	🎯 12-22GB	50%-80%
+
 分块数量	大量小分块	🧠 少量大分块	减少 60%-70%
+
 用户体验	需要手动调优	🤖 自动优化	极大简化
+
 🎮 快速开始
+
 安装方法
+
 将本节点包放入 ComfyUI/custom_nodes/ 目录
 
 重启 ComfyUI
@@ -47,6 +54,7 @@ WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI �
 在节点菜单中找到 WanVideo VACE Encode 4090
 
 推荐配置
+
 python
 # 对于 4090D 24GB 显存
 tile_size_multiplier = 2.0    # 平衡性能与质量
@@ -101,4 +109,5 @@ PT - 用代码改变世界，用热情点亮未来 ✨
 
 
 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+
 
