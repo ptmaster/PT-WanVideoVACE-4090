@@ -2,7 +2,7 @@ WanVideo VACE Encode 4090 🚀
 "为创作者而生，为性能而战" - 由 PT 倾情奉献
 
 ✨ 项目介绍
-WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI 节点包，旨在解决原版 VACE 编码器在分块模式下性能瓶颈的问题。经过 PT的辛勤调试和优化，这个节点让您的 4090 级别显卡真正发挥其强大性能！
+WanVideo VACE Encode 4090 是一个专为现代高性能 GPU 优化的 ComfyUI 节点包，旨在解决原版 VACE 编码器在高分辨率分块模式下性能瓶颈的问题。经过 PT的辛勤调试和优化，这个节点让您的 4090 级别显卡真正发挥其强大性能！
 例子: 261帧 1536 832 视频:
 
 <img width="290" height="333" alt="DE6AA28BB10FFFFAE4202966C859FA2A" src="https://github.com/user-attachments/assets/74211062-aedd-41c1-b2cd-01449239c0d8" />
@@ -101,3 +101,4 @@ PT - 用代码改变世界，用热情点亮未来 ✨
 
 
 本回答由 AI 生成，内容仅供参考，请仔细甄别。
+
